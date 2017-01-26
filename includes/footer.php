@@ -8,7 +8,9 @@
  */
 
 ?>
-
+<footer class="navbar navbar-default">
+    <p class="text-center copyright">??? 2017 &copy;</p>
+</footer>
 
 </body>
 </html>

@@ -6,7 +6,41 @@
  * Time: 10:16 AM
  * Description: This file was created to
  */
+//local development
+$host = "localhost";
+$login = "phpuser";
+$password = "phpuser";
+$database = "contact";
+//production
+//$host = "localhost";
+//$login = "jodylane";
+//$password = "jodylane";
+//$database = "jodylane_db";
 
+//connect to db
+$conn = @new mysqli($host, $login, $password, $database);
 
+//handle connection errors
+if($conn -> connect_errno){
+    $errno = $conn->connect_errno;
+    $errmsg = $conn->connect_error;
+    die("Connection to database failed: ($errno) $errmsg.");
+    require_once('includes/footer.php');
+}
 
+//Selection from contacts table
+$sql = "SELECT * FROM contacts";
+
+//execute query
+$query = $conn->query($sql);
+
+//handle query errors
+if(!$query){
+    $errno = $conn->connect_errno;
+    $errmsg = $conn->connect_error;
+    echo "Selection failed with: ($errno) $errmsg.";
+    $conn->close();
+    require_once ('includes/footer.php');
+    exit;
+}
 ?>
