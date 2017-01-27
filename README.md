@@ -5,7 +5,7 @@ Run npm install
 Import users.sql to phpmyadmin
 
 comment out live production variables and uncomment local development variables
-
+in **database.php**
 
 ```php
 
