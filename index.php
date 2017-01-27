@@ -32,23 +32,23 @@ include "./includes/header.php";
                                     <form action="insertContact.php" method="post">
                                         <div class="col-md-8 col-md-offset-2">
                                             <div class="form-group">
-                                                <input required class="form-control" type="text" name="fname"
+                                                <input required class="form-control" id="fname" type="text" name="fname"
                                                        placeholder="First Name"/>
                                             </div>
                                             <div class="form-group">
-                                                <input required class="form-control" type="text" name="lname"
+                                                <input required class="form-control" id="lname" type="text" name="lname"
                                                        placeholder="Last Name"/>
                                             </div>
                                             <div class="form-group">
-                                                <input required class="form-control" type="text" name="uname"
+                                                <input required class="form-control" id="uname" type="text" name="uname"
                                                        placeholder="Username"/>
                                             </div>
                                             <div class="form-group">
-                                                <input required class="form-control" type="email" name="email"
+                                                <input required class="form-control" id="email" type="email" name="email"
                                                        placeholder="Email"/>
                                             </div>
                                             <div class="form-group">
-                                                <input required class="form-control" type="password" name="password"
+                                                <input required class="form-control" id="password" type="password" name="password"
                                                        placeholder="Password"/>
                                             </div>
                                         </div>

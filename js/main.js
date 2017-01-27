@@ -11,14 +11,14 @@ $(document).ready(function(){
     $('#modalBtn').on('click',function(){
         var fna = $('#fname');
         var lna = $('#lname');
+        var use = $('#uname');
         var ema = $('#email');
         var pas = $('#password');
-        var con = $('#confirm');
         fna.val('');
         lna.val('');
         ema.val('');
         pas.val('');
-        con.val('');
+        use.val('');
         $('.modal').modal('toggle');
     });
     $('#cancel').on('click', function(event){
