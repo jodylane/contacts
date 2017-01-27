@@ -7,15 +7,15 @@
  * Description: This file was created to
  */
 //local development
-$host = "localhost";
-$login = "phpuser";
-$password = "phpuser";
-$database = "contacts";
-//production
 //$host = "localhost";
-//$login = "jodylane";
-//$password = "jodylane";
-//$database = "jodylane_db";
+//$login = "phpuser";
+//$password = "phpuser";
+//$database = "contacts";
+//production
+$host = "localhost";
+$login = "jodylane";
+$password = "jodylane";
+$database = "jodylane_db";
 
 //connect to db
 $conn = @new mysqli($host, $login, $password, $database);
