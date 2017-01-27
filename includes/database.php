@@ -10,7 +10,7 @@
 $host = "localhost";
 $login = "phpuser";
 $password = "phpuser";
-$database = "contact";
+$database = "contacts";
 //production
 //$host = "localhost";
 //$login = "jodylane";
@@ -29,7 +29,7 @@ if($conn -> connect_errno){
 }
 
 //Selection from contacts table
-$sql = "SELECT * FROM contacts";
+$sql = "SELECT * FROM users";
 
 //execute query
 $query = $conn->query($sql);

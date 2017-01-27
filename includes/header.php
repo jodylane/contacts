@@ -14,7 +14,7 @@ include "includes/database.php";
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Contacts App</title>
+    <title>Contacts A</title>
     <link href="./node_modules/bootstrap/dist/css/bootstrap.min.css" type="text/css" rel="stylesheet">
     <link href="node_modules/sweetalert/dist/sweetalert.css" rel="stylesheet" type="text/css">
     <link href="css/style.css" rel="stylesheet" type="text/css">

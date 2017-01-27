@@ -1,11 +1,30 @@
+body, html {
+  height: 100%; }
+
+body {
+  position: relative; }
+
 ul {
   padding-top: 5px; }
 
 .navbar {
   margin-bottom: 0; }
 
+.hover:hover {
+  background-color: #00b3ee;
+  margin-left: 20px;
+  cursor: pointer; }
+
 .wrap {
   margin-top: 20px; }
+
+.flex-center {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center; }
+
+.margin-bottom {
+  margin-top: 50px; }
 
 footer {
   position: absolute;
