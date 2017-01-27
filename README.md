@@ -7,7 +7,6 @@ Import users.sql to phpmyadmin
 comment out live production variables and uncomment local development variablesin **database.php**
 
 ```php
-
 // for local development
 //$host = "localhost";
 //$login = "phpuser";
