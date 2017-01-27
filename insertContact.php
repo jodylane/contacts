@@ -138,8 +138,20 @@ echo '<span aria-hidden="true">&times;</span>';
 echo '</button>';
 echo '<strong>Hooray!</strong> You successfully added a Contact <a href="index.php">Return Home</a></div></div>';
 
-require_once'includes/footer.php';
+
 ?>
+<footer class="footer">
+    <div class="container">
+        <p class="text-center copyright">Contacts 2017 &copy;</p>
+    </div>
+
+</footer>
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="node_modules/sweetalert/dist/sweetalert.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
 
 
 
